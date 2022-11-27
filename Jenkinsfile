@@ -21,7 +21,7 @@ pipeline {
                 sh 'python pipeline.py'
             }
         }
-        stage('run') {
+        stage('run2') {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'python --version'
